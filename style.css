@@ -1,0 +1,268 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: 'Roboto';
+  color: #f9f9f9;
+  background-color: #181818;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+/*HEADER*/
+
+#header {
+    width: 100%;
+    background-color: #202020;
+    display: flex;
+    align-items: center;
+    height: 56px;
+}
+
+#menu {
+    display: flex;
+}
+
+.btn-menu {
+    height: 24px;
+    width: 24px;
+    margin: 0 1.4rem;
+}
+
+.btn-header {
+    height: 24px;
+    width: 24px;
+    margin-right: 16px;
+}
+
+#logo-cont{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    width: auto;
+    height: 24px;
+}
+
+#btn-search {
+    height: 20px;
+    width: 30px;
+}
+
+#login {
+    display: flex;
+}
+
+#sign-in {
+    display: flex;
+    flex-wrap: inherit;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid;
+    border-color: #3ea6ff;
+    border-radius: 2px;
+    margin-right: 1.4rem;
+    padding: 5px;
+
+}
+
+#sign-in span {
+     color: #3ea6ff;
+     margin-right: 10px;
+     align-self: center;
+}
+
+#sign-in .btn-header {
+    margin-left: 10px;
+}
+
+#searchbar {
+    height: 32px;
+    width: 600px;
+    border: none;
+    background-color: #323232;
+    display: flex;
+    align-items: center;
+    justify-content: self-start;
+    padding: 1px 0px 1px 6px;
+    margin: 0 auto;
+}
+
+#searchbar input {
+    background-color: #202020;
+    width: 543px;
+    height: 28px;
+    border: none;
+}
+
+
+#btn-search {
+    height: 32px;
+    width: 47px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    float: none;
+    line-height: normal;
+    border: none;
+    background-color: #323232;
+}
+
+#search-btn {
+    width: 14px;
+    height: 14px;
+    display: flex;
+    justify-self: center;
+    color: inherit;
+    background-color: #323232;
+}
+
+
+/*BODY*/ 
+
+#maincontainer {
+    width: auto;
+    height: 100%;
+    margin: 2.5rem 5rem;
+    display: flex;
+   
+}
+
+/*LEFT*/
+
+#col-one {
+    width: 75%;
+    height: 100%;
+}
+
+.react-btn {
+    width: 20px;
+    height: 20px;
+    margin-left: 2em;
+}
+
+button {
+    border: none;
+}
+
+h1 {
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+#general-info {
+    display: flex;
+    align-items: center;
+}
+
+#react-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 10%;
+}
+
+.text {
+    color: #aaaaaa;
+    margin-left: 0.25em;
+}
+
+.text-info {
+    color: #aaaaaa;
+    font-size: 12px;
+}
+
+hr {
+    color: rgba(170, 170, 170, 25%);
+    margin-top: 25px;
+    margin-right: 10%;
+}
+
+#upload-info {
+    margin-top: 25px;
+    display: flex; 
+    align-items: center;
+}
+
+.avatar {
+    height: 48px;
+    width: 48px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/*COMMENTS*/
+
+#comments-container {
+    margin-top: 25px;
+    display: flex;
+}
+
+#commentaire {
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+#commentaire p {
+    margin-top: 8px;
+}
+
+
+#comment-body {
+    display: flex;
+}
+
+#comment-react {
+    display: flex;
+    margin-top: 15px;
+    align-content: center;
+}
+
+#like-com {
+    margin-left: 0;
+    height: 20px;
+    width: 20px;
+}
+
+
+/*RIGHT*/
+
+#col-two {
+    width: 25%;
+    height: 100%;
+}
+
+img {
+    height: 94px;
+    width: 168px;
+    object-fit: cover;
+}
+
+.preview {
+    display: flex;
+    align-content: center;
+    line-height: 1.4em;
+    margin-bottom: 5px;
+}
+
+.preview p {
+    color: #aaaaaa;
+}
+
+.details {
+    padding-left: 15px;
+}
